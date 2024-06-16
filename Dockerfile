@@ -7,6 +7,7 @@ RUN npm run build
 #app/build
 
 
+
 FROM nginx
 EXPOSE 80
 #--from : copy something from different phase  (in this case the phase above below one)
